@@ -72,7 +72,10 @@ tts:
     emotion: 2
 ```
 <hr>
-(12) HA를 재부팅 해주시고 제대로 동작하는지 확인 해보세요. 만약 문제가 있으시면 `configuration.yaml` 에서 11번에 추가 한 `naver_premium` 항목을 삭제 후 재부팅 해주세요.
+(12) HA를 재부팅 해주시고 제대로 동작하는지 확인 해보세요. <br>
+만약 문제가 있으시면 `configuration.yaml` 에서 11번에 추가 한 `naver_premium` 항목을 삭제 후 재부팅 해주세요.
+
 <br><br>
+
 # 제작에 도움을 주신 분
 [1] GH-Connecter(아기나무집님)
