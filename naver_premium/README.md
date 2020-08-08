@@ -29,5 +29,5 @@ https://console.ncloud.com/mc/solution/naverService/application?version=v2
 (초보자분들을 위해 설명을 드리면 config 파일 경로는 configuration.yaml 파일이 있는 경로 이고 hass.io를 설치 하신 분들은 /usr/share/hassio 경로 입니다)<hr>
 (9) 해당 경로에 custom_components 폴더가 있는지 확인 후 폴더가 있다면 naver_premium 폴더를 만들어 주시고 없으시면 custom_components 폴더를 만드신 후 해당 폴더 안에 naver_premium 폴더를 만들어 주세요.<br>
 (리눅스 사용중이고 hass.io를 사용 중이면 "mkdir /usr/share/hassio/custom_components/naver_premium" 를 입력 해주세요) <hr>
-(10) ``__init__.py, tts.py`을 naver_premium 폴더안에 넣어 주세요.<br>
+(10) `__init__.py, tts.py` 를 naver_premium 폴더안에 넣어 주세요.<br>
 최종 경로는 `<config directory>/custom_components/naver_premium/__init__.py` , `<config directory>/custom_components/naver_premium/manifest.json` 입니다.<hr>
