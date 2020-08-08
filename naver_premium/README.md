@@ -2,7 +2,7 @@
 
 ## Intro
 ### NAVER에서 유료로 제공 하는 Preimium TTS를 HOME ASSIANT에 사용할 수 있습니다.<br>
-일반 TTS와 다르게 emotion 항목으로 감정 조절이 가능 합니다.<br><br><
+일반 TTS와 다르게 emotion 항목으로 감정 조절이 가능 합니다.<br><br>
 
 ## How to Install
 (1) 네이버 클라우드에 접속 하셔서 회원 가입을 해주세요.
@@ -24,7 +24,7 @@ https://console.ncloud.com/mc/solution/naverService/application?version=v2
 <img src="https://github.com/chohoo89/HomeAssiant_Componets/blob/master/image/naver_premium/4.jpg?raw=true">
 <br><br><hr><br><br>
 (7) 등록 된 API 키에 인증 정보를 클릭 하고 Client ID, Client Secret을 복사 해두세요.
-<img src="https://github.com/chohoo89/HomeAssiant_Componets/blob/master/image/naver_premium/5.jpg?raw=true">
+<img src="https://github.com/chohoo89/HomeAssiant_Componets/blob/master/image/naver_premium/6.jpg?raw=true">
 <hr>
 (8) HA의 config 파일 경로에 들어 갑니다.<br>
 (초보자분들을 위해 설명을 드리면 config 파일 경로는 configuration.yaml 파일이 있는 경로 이고 hass.io를 설치 하신 분들은 /usr/share/hassio 경로 입니다)<hr>
