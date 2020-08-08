@@ -6,7 +6,7 @@ Cache 기능이 있어 한번 이라도 호출 했던 메시지는 금액이 부
 NAVER의 Preimium TTS를 HOME ASSIANT에 사용할 수 있습니다.<br>
 일반 TTS와 다르게 emotion 항목으로 감정 조절이 가능 합니다.<br>
 emotion으로 좀 더 자연스러운 TTS를 구현 해보세요.<br>
-
+※ Voice는 기본 Voice(nara)만 지원 합니다.<br>
 <br><br>
 
 ## ■ How to Install
