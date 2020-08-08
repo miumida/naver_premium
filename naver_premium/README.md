@@ -10,7 +10,7 @@ https://console.ncloud.com/mc/solution/naverService/application?version=v2
 
 3. Product & Service를 클릭하고 AI·NAVER API를 클릭 합니다.
 <img src="https://github.com/chohoo89/HomeAssiant_Componets/blob/master/image/naver_premium/1.jpg?raw=true">
-<br><br><br><br>
+<br><br><br><br><hr>
 4. Application 등록을 클릭 합니다.
 <img src="https://github.com/chohoo89/HomeAssiant_Componets/blob/master/image/naver_premium/2.jpg?raw=true">
 <br><br><br><br>
