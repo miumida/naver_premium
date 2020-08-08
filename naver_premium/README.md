@@ -1,7 +1,10 @@
 # NAVER CLOUD TTS(PREMIUM) FOR HOME ASSIANT
 
 ## Intro
-NAVER에서 제공 하는 TTS를 HOME ASSIANT에 사용할 수 있습니다.
+### NAVER에서 유로로 제공 하는 Preimium TTS를 HOME ASSIANT에 사용할 수 있습니다.<br>
+일반 TTS와 다르게 emotion 항목으로 감정 조절이 가능 합니다.<br>
+
+
 
 ## How to Install
 (1) 네이버 클라우드에 접속 하셔서 회원 가입을 해주세요.
@@ -31,7 +34,7 @@ https://console.ncloud.com/mc/solution/naverService/application?version=v2
 (리눅스 사용중이고 hass.io를 사용 중이면 "mkdir /usr/share/hassio/custom_components/naver_premium" 를 입력 해주세요) <hr>
 
 (10) `__init__.py, tts.py` 를 naver_premium 폴더안에 넣어 주세요.<br>
-최종 경로는 `<config directory>/custom_components/naver_premium/__init__.py` <br> `<config directory>/custom_components/naver_premium/manifest.json` 입니다.<hr>
+최종 경로는 `<config directory>/custom_components/naver_premium/__init__.py` <br> `<config directory>/custom_components/naver_premium/tts.py` 입니다.<hr>
 
 (11) `configuration.yaml` 에서 아래 항목을 입력 합니다. (필수 항목)<br>
 ```yaml
@@ -48,3 +51,6 @@ tts:
     emotion: # 감정을 조절할 수 있습니다. (0:보통, 1:슬픔, 2:밝음)
 ````
 
+
+# 도움을 주신 분
+[1] GH-Connecter 제작자 아기나무집님
