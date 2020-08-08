@@ -32,3 +32,19 @@ https://console.ncloud.com/mc/solution/naverService/application?version=v2
 
 (10) `__init__.py, tts.py` 를 naver_premium 폴더안에 넣어 주세요.<br>
 최종 경로는 `<config directory>/custom_components/naver_premium/__init__.py` <br> `<config directory>/custom_components/naver_premium/manifest.json` 입니다.<hr>
+
+(11) `configuration.yaml` 에서 아래 항목을 입력 합니다. (필수 항목)<br>
+```yaml
+tts:
+  - platform: naver_premium
+    client_id: <YOUR_CLIENT_ID> # 7번 항목의 Client ID
+    client_secret: <YOUR_CLIENT_SECRET> # 7번 항목의 Client Secret
+````
+
+(11-2) 추가로 옵션을 조정 하시려면 아래와 같은 설정이 조정이 가능 합니다.
+```yaml
+    speed: # 음성 속도를 설정 할 수 있습니다. (-5~5 사이 값을 입력 하면 되고 -5는 2배 5는 0.5배 입니다.)
+    pitch: # 피치를 설정 할 수 있습니다. (-5~5 사이 값을 입력 하면 되고 -5는 1.2배 높은 피치, 5는 0.8배 낮은 피치)
+    emotion: # 감정을 조절할 수 있습니다. (0:보통, 1:슬픔, 2:밝음)
+````
+
