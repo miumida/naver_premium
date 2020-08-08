@@ -39,21 +39,39 @@ https://console.ncloud.com/mc/solution/naverService/application?version=v2
 (10) `__init__.py, tts.py` 를 naver_premium 폴더안에 넣어 주세요.<br>
 최종 경로는 `<config directory>/custom_components/naver_premium/__init__.py` <br> `<config directory>/custom_components/naver_premium/tts.py` 입니다.<hr>
 
-(11) `configuration.yaml` 에서 아래 항목을 입력 합니다. (필수 항목)<br>
+(11) `configuration.yaml` 에서 아래 항목을 입력 합니다. (필수 항목)
 ```yaml
 tts:
   - platform: naver_premium
     client_id: <YOUR_CLIENT_ID> # 7번 항목의 Client ID
     client_secret: <YOUR_CLIENT_SECRET> # 7번 항목의 Client Secret
 ````
-
+<br>
 (11-2) 추가로 옵션을 조정 하시려면 아래와 같은 설정이 조정이 가능 합니다.
 ```yaml
     speed: # 음성 속도를 설정 할 수 있습니다. (-5~5 사이 값을 입력 하면 되고 -5는 2배 5는 0.5배 입니다.)
     pitch: # 피치를 설정 할 수 있습니다. (-5~5 사이 값을 입력 하면 되고 -5는 1.2배 높은 피치, 5는 0.8배 낮은 피치)
     emotion: # 감정을 조절할 수 있습니다. (0:보통, 1:슬픔, 2:밝음)
 ````
+<br>
+(11-3) google_cloud 등 다른 tts 를 사용 하고 있어도 아래와 같이 platform을 붙혀 추가 하시면 google, naver tts 둘다 사용 가능 합니다.
+```yaml
+tts:
+  - platform: google_cloud
+    key_file: googlecloud.json
+    language: ko-KR
+    voice: ko-KR-Wavenet-A
+    service_name: google_say
+    pitch: -2.8
+    speed: 1.07
+  - platform: naver_premium
+    client_id: <YOUR_CLIENT_ID> # 7번 항목의 Client ID
+    client_secret: <YOUR_CLIENT_SECRET> # 7번 항목의 Client Secret
+    emotion: 2
+```
+<hr>
 
+(12) HA를 재부팅 해주시고 제대로 동작하는지 확인 해보세요. 만약 문제가 있으시면 `configuration.yaml`에서 11번에 추가 한 항목을 삭제 후 재부팅 해주세요.
 <br><br>
 # 제작에 도움을 주신 분
 [1] GH-Connecter(아기나무집님)
