@@ -1,10 +1,8 @@
 # NAVER CLOUD TTS(PREMIUM) FOR HOME ASSIANT
 
 ## Intro
-### NAVER에서 유로로 제공 하는 Preimium TTS를 HOME ASSIANT에 사용할 수 있습니다.<br>
-일반 TTS와 다르게 emotion 항목으로 감정 조절이 가능 합니다.<br>
-
-
+### NAVER에서 유료로 제공 하는 Preimium TTS를 HOME ASSIANT에 사용할 수 있습니다.<br>
+일반 TTS와 다르게 emotion 항목으로 감정 조절이 가능 합니다.<br><br><
 
 ## How to Install
 (1) 네이버 클라우드에 접속 하셔서 회원 가입을 해주세요.
