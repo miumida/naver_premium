@@ -1,8 +1,14 @@
 # NAVER CLOUD TTS(PREMIUM) FOR HOME ASSIANT
 
 ## Intro
-### NAVER에서 유료로 제공 하는 Preimium TTS를 HOME ASSIANT에 사용할 수 있습니다.<br>
-일반 TTS와 다르게 emotion 항목으로 감정 조절이 가능 합니다.<br><br>
+### 이 컴포넌트는 유료 컴퍼넌트 입니다. 1회 호출에 5원 입니다. (네이버에서 부과) <br>
+Cache 기능이 있어 한번 이라도 호출 했던 말은 금액이 부과가 되지 않습니다.<br>
+### (다만 글자 하나라도 바뀌면 1회 호출로 침) <br>
+NAVER의 Preimium TTS를 HOME ASSIANT에 사용할 수 있습니다.<br>
+일반 TTS와 다르게 emotion 항목으로 감정 조절이 가능 합니다.<br>
+emotion으로 좀 더 자연스러운 TTS를 구현 해보세요.<br>
+
+<br><br>
 
 ## How to Install
 (1) 네이버 클라우드에 접속 하셔서 회원 가입을 해주세요.
