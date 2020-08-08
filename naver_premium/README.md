@@ -3,6 +3,7 @@
 ## Intro
 NAVER에서 제공 하는 TTS를 HOME ASSIANT에 사용할 수 있습니다.
 
+## How to Install
 1. 네이버 클라우드에 접속 하셔서 회원 가입을 해주세요.
 
 2. 네이버 콘솔로 접속 합니다.
