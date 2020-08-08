@@ -30,7 +30,7 @@ https://console.ncloud.com/mc/solution/naverService/application?version=v2
 9. 해당 경로에 custom_components 폴더가 있는지 확인 후 폴더가 있다면 naver_premium 폴더를 만들어 주시고 없으시면 custom_components 폴더를 만드신 후 해당 폴더 안에 naver_premium 폴더를 만들어 주세요.<br>
 (리눅스 사용중이고 hass.io를 사용 중이면 "mkdir /usr/share/hassio/custom_components/naver_premium" 를 입력 해주세요)<br>
 경로는 아래와 같습니다.<br>
-  `<config directory>/custom_components/naver_premium/__init__.py`<br>
-  `<config directory>/custom_components/naver_premium/manifest.json`<hr>
+`<config directory>/custom_components/naver_premium/__init__.py`<br>
+`<config directory>/custom_components/naver_premium/manifest.json`<hr>
 
 10. `__init__.py, tts.py`을 naver_premium 폴더안에 넣어 주세요.<br><br>
