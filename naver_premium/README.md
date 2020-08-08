@@ -68,7 +68,7 @@ tts:
     client_id: <YOUR_CLIENT_ID> # 7번 항목의 Client ID
     client_secret: <YOUR_CLIENT_SECRET> # 7번 항목의 Client Secret
     emotion: 2
-```
+````
 <hr>
 
 (12) HA를 재부팅 해주시고 제대로 동작하는지 확인 해보세요. 만약 문제가 있으시면 `configuration.yaml`에서 11번에 추가 한 항목을 삭제 후 재부팅 해주세요.
