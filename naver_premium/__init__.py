@@ -1,1 +1,1 @@
-"""Support for the Naver_tts_premium integration."""
+"""Support for the naver_premium integration."""
