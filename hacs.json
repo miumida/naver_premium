@@ -1,0 +1,6 @@
+{
+  "name": "[KR] 네이버 프리미엄(CPV)",
+  "country": "KR",
+  "domains": ["tts"],
+  "render_readme": true
+}
